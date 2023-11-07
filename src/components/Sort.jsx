@@ -2,7 +2,7 @@ import React from 'react';
 
 function Sort() {
   const [open, setOpen] = React.useState();
-  const [selected, setSelected] = React.useState();
+  const [selected, setSelected] = React.useState(0);
   const onClickListItem = (i) => {
     setSelected(i);
     setOpen(false);
